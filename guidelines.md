@@ -18,4 +18,4 @@ rules
 - abbreviations are reproduced faithfully from the source and are not expanded without explicit indication
 - regardless of its visual appearance, a hyphen (U+002D) is used to represent hyphenation at line breaks
 - large numbers written in groups are transcribed without spaces within the number
-- fractions are transcribed as a sequence consisting of the numerator, the fraction slash (U+2044), and the denominator, irrespective of whether a precomposed Unicode fraction character exists
+- precomposed Unicode fraction characters should be used whenever available, for example ½, ¾, and ⅝. Fractions without a corresponding precomposed Unicode character are represented using regular digits separated by the fraction slash (⁄, U+2044), for example 2⁄7 and 11⁄16, the solidus and superscript or subscript digits are not used
