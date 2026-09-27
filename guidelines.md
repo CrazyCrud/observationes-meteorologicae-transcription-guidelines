@@ -20,3 +20,4 @@ rules
 - large numbers written in groups are transcribed without spaces within the number
 - precomposed Unicode fraction characters should be used whenever available, for example ½, ¾, and ⅝. Fractions without a corresponding precomposed Unicode character are represented using regular digits separated by the fraction slash (⁄, U+2044), for example 2⁄7 and 11⁄16, the solidus and superscript or subscript digits are not used
 - mixed numbers are transcribed with a single space between the integer and the fractional part
+- dot-like marks are transcribed as punctuation only if they can be identified with sufficient confidence as intentionally written
