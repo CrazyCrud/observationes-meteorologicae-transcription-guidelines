@@ -18,7 +18,7 @@ rules
 - abbreviations are reproduced faithfully from the source and are not expanded without explicit indication
 - regardless of its visual appearance, a hyphen (U+002D) is used to represent hyphenation at line breaks
 - large numbers written in groups are transcribed without spaces within the number
-- precomposed Unicode fraction characters should be used whenever available, for example ½, ¾, and ⅝. Fractions without a corresponding precomposed Unicode character are represented using regular digits separated by the fraction slash (⁄, U+2044), for example 2⁄7 and 11⁄16, the solidus and superscript or subscript digits are not used
+- ~~precomposed Unicode fraction characters should be used whenever available, for example ½, ¾, and ⅝. Fractions without a corresponding precomposed Unicode character are represented using regular digits separated by the fraction slash (⁄, U+2044), for example 2⁄7 and 11⁄16~~ fractions are represented using regular digits for the numerator and denominator, separated by the fraction slash (⁄, U+2044); this rule applies regardless of whether a precomposed Unicode character exists; the solidus and superscript or subscript digits are not used
 - mixed numbers are transcribed with a single space between the integer and the fractional part
 - different value-unit groups are separated by a single space (f.ex. 27″ 1 3⁄4‴)
 - dot-like marks are transcribed as punctuation only if they can be identified with sufficient confidence as intentionally written
